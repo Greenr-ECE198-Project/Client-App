@@ -14,5 +14,20 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      {
+        lightMode: {
+          "primary": "#f8f8f3",
+          "secondary": "#1f2122",
+          "accent": "#59b280",
+          "neutral": "#f8f8f3",
+          "base-100": "#f8f8f3",
+        },
+      },
+    ],
+  },
 } satisfies Config;
